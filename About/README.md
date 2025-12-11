@@ -1,4 +1,4 @@
-# 🌑 ShadowInject Lab — Definition
+# 🌑 ShadowInject Lab 
 
 **ShadowInject Lab** is a hands-on web application security project where I analyze, exploit, and document real-world vulnerabilities using **OWASP ZAP** and **WebGoat**.  
 The project focuses on uncovering hidden or “shadow” weaknesses in web applications—such as **SQL Injection (SQLi), Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF)**—and understanding how attackers exploit them.
