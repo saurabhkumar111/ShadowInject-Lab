@@ -1,1 +1,33 @@
 
+STEP 1 — Mapping WebGoat with ZAP (YOU MUST DO THIS FIRST)
+➤ Action:
+
+In Firefox, manually browse WebGoat for 1–2 minutes.
+
+Go to:
+
+Login page
+
+Register page
+
+Any lesson page (like “Injection”)
+
+Any link on the left sidebar
+
+Goal: Let ZAP “see” the site structure.
+
+➤ In ZAP:
+
+Check Sites tab → you should see a tree like:
+
+webgoat.local
+   /WebGoat
+      /login
+      /css
+      /js
+      /Home
+      /PasswordReset
+      ...
+
+
+✔ This is “mapping”.
