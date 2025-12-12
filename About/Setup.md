@@ -40,3 +40,15 @@ After installation, use:
 
 **Docker Desktop (if using Docker for WebGoat)**
 
+
+## ✔ Summary
+
+ShadowInject requires:
+
+**WebGoat** → vulnerable target
+
+**OWASP ZAP** → scanner
+
+**Browser** → routing traffic through ZAP
+
+This setup is  for performing:- SQLi, XSS, CSRF, scanning and exploitation.
