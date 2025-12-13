@@ -31,3 +31,23 @@ webgoat.local
 
 
 ✔ This is “mapping”.
+
+
+## ShadowInject – Phase 2 (OWASP ZAP)
+
+Target: WebGoat (Local Application)
+Tool: OWASP ZAP
+Scan Type: Automated Passive + Active Scan
+
+### Findings Observed
+- Absence of Anti-CSRF tokens on authentication endpoints
+- Content Security Policy (CSP) header not set
+- Missing Anti-clickjacking (X-Frame-Options) header
+- X-Content-Type-Options header missing
+- Informational findings from user agent fuzzing
+
+### Notes
+- WebGoat is an intentionally vulnerable application
+- Findings are expected and useful for learning
+- Detailed evidence captured via screenshots and HTML report
+
