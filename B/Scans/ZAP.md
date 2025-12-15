@@ -116,8 +116,5 @@ Actively test application for known vulnerabilities.
 - Findings align with OWASP Top 10 categories
 - Full automated scan report exported separately
 
-### Full Report
-
-
 
 
